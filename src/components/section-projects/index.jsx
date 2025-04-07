@@ -2,6 +2,7 @@ import React from 'react';
 
 import Section from '../section';
 import SummaryItem from '../summary-item';
+import formatDescription from '../../utils/format';
 
 const SectionProjects = ({ projects }) => {
   if (!projects.length) return null;
@@ -12,7 +13,7 @@ const SectionProjects = ({ projects }) => {
         <SummaryItem
           key={project.name}
           name={project.name}
-          description={project.description}
+          description={formatDescription(project.description)}
           link={project.link}
         />
       ))}

@@ -9,7 +9,7 @@ import SectionBlog from '../components/section-blog';
 import SectionExperience from '../components/section-experience';
 import SectionProjects from '../components/section-projects';
 import SectionSkills from '../components/section-skills';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 const Index = ({ data }) => {
   const about = get(data, 'site.siteMetadata.about', false);
@@ -17,18 +17,19 @@ const Index = ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
   const experience = get(data, 'site.siteMetadata.experience', false);
   const skills = get(data, 'site.siteMetadata.skills', false);
-  const noBlog = !posts || !posts.length;
+  // const noBlog = !posts || !posts.length;
+  const noBlog = true; // Disable blog section for now
 
   return (
     <Layout>
-      <SEO />
+      <Seo />
       <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
       {about && <SectionAbout about={about} />}
-      {projects && projects.length && <SectionProjects projects={projects} />}
-      {!noBlog && <SectionBlog posts={posts} />}
       {experience && experience.length && (
         <SectionExperience experience={experience} />
       )}
+      {projects && projects.length && <SectionProjects projects={projects} />}
+      {!noBlog && <SectionBlog posts={posts} />}
       {skills && skills.length && <SectionSkills skills={skills} />}
     </Layout>
   );

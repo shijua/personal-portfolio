@@ -2,6 +2,7 @@ import React from 'react';
 
 import Section from '../section';
 import SummaryItem from '../summary-item';
+import formatDescription from '../../utils/format';
 
 const SectionExperience = ({ experience }) => {
   if (!experience.length) return null;
@@ -12,7 +13,7 @@ const SectionExperience = ({ experience }) => {
         <SummaryItem
           key={item.name}
           name={item.name}
-          description={item.description}
+          description={formatDescription(item.description)}
           link={item.link}
         />
       ))}

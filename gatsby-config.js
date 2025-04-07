@@ -15,31 +15,31 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/weijun-huang-793b3224b/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I am a third-year MEng Computing student at Imperial College London with a strong foundation in engineering, computer systems, and algorithmic thinking. My academic training has equipped me with solid problem-solving skills, a deep understanding of core computing principles, and the ability to quickly learn and apply new technologies. I am particularly passionate about building clean, efficient, and scalable software, and I enjoy working in collaborative environments where technical challenges drive innovation.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
         name: 'WACC compiler',
         description:
-          '•	Led a team as Leader, effectively managing tasks and ensuring deadlines were met\n•	Developed and implemented the parser, semantic checker, and code generator in Rust\n•	Tested and validated the compiler on complex codebases like hash table and Tic-Tac-Toe, identifying edge cases and optimizing performance\n•	Enhanced and optimized the compiler to support advanced features like dynamic type inference, constant folding, and control flow analysis',
+          '•	Led a team as Leader, effectively managing tasks and ensuring deadlines were met•	Developed and implemented the parser, semantic checker, and code generator in Rust•	Tested and validated the compiler on complex codebases like hash table and Tic-Tac-Toe, identifying edge cases and optimizing performance•	Enhanced and optimized the compiler to support advanced features like dynamic type inference, constant folding, and control flow analysis',
         link: 'https://github.com/shijua/WACC-project',
       },
       {
         name: 'Pintos',
         description:
-          '• Implemented core OS features such as priority scheduling, user program support, and virtual memory management, enhancing overall system functionality\n• Conducted extensive debugging and testing to ensure accuracy, stability, and reliability\n• Deepened understanding of OS principles through hands-on experience, applying concepts like process management and memory handling in real-world scenarios',
+          '• Implemented core OS features such as priority scheduling, user program support, and virtual memory management, enhancing overall system functionality• Conducted extensive debugging and testing to ensure accuracy, stability, and reliability• Deepened understanding of OS principles through hands-on experience, applying concepts like process management and memory handling in real-world scenarios',
         link: 'https://github.com/shijua/pintos',
       },
       {
         name: 'C Project',
         description:
-          '• Coordinated team efforts in planning and execution, ensuring collaboration and project delivery\n• Successfully developed an AArch64 emulator and assembler, crucial for debugging and testing A64 assembly program that flashes the LED light on Raspberry Pi\n• Developed a piano simulator on Raspberry Pi, showcasing embedded systems programming skills',
+          '• Coordinated team efforts in planning and execution, ensuring collaboration and project delivery• Successfully developed an AArch64 emulator and assembler, crucial for debugging and testing A64 assembly program that flashes the LED light on Raspberry Pi• Developed a piano simulator on Raspberry Pi, showcasing embedded systems programming skills',
         link: 'https://github.com/shijua/c-project',
       },
       {
         name: 'Bouncing Ball Game',
         description:
-          '•	Created a bouncing ball game with 40 levels from easy to hard\n•	Included 8 different types of blocks that let ball reacts in different way',
+          '•	Created a bouncing ball game with 40 levels from easy to hard•	Included 8 different types of blocks that let ball reacts in different way',
         link: 'https://github.com/shijua/bouncing-ball',
       },
     ],
@@ -48,17 +48,17 @@ module.exports = {
       {
         name: 'Dolby, London, UK',
         description: 'Image Processing Intern, April 2024 - Sep 2024',
-        // link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: '',
       },
       {
         name: 'PATH Start-up, London, UK',
-        description: 'Software Engineering Internship, Jun 2024 - Sep 2024',
-        // link: 'https://github.com/RyanFitzgerald/devfolio',
+        description: 'Software Engineering Internship, Jun 2024 - Sep 2024• Collaborated with a cross-functional team to design and develop an educational app using Flutter • Integrated OpenAI APIs and Google TTS/STT APIs to implement advanced features like story generation, AI mentoring, and audio capabilities, enhancing app interactivity and user engagement • Engaged directly with users during the alpha release phase to gather feedback, identify issues, and implement improvements, contributing to a more robust product',
+        link: '',
       },
       {
         name: 'CassTime, Shenzhen, China',
-        description: 'Data Analyst Internship, August 2021',
-        // link: 'https://github.com/RyanFitzgerald/devfolio',
+        description: 'Data Analyst Internship, August 2021• Collaborated with a peer to gather and fulfill program requirements from colleagues • Developed a data collection program to capture task data from Jira users, enabling efficient data analysis and visualization as graphs or tables, with output in Excel• Designed a user-friendly interface and created comprehensive documentation to ensure ease of use',
+        link: '',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
