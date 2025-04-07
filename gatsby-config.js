@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://monumental-chimera-b1ace3.netlify.app/`,
+    siteUrl: `https://weijun-huang.netlify.app/`,
     // Your Name
     name: 'Ryan Fitzgerald',
     // Main Site Title
@@ -19,7 +19,7 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: '111Devfolio',
         description:
           'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
         link: 'https://github.com/RyanFitzgerald/devfolio',
