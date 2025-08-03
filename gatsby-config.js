@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Weijun's Personal Site`,
     // Description that goes under your name in main bio
-    description: `3rd Year Master of Computing Student at Imperial College London`,
+    description: `4th Year Master of Computing Student at Imperial College London`,
     // Optional: Twitter account handle
     author: `@weijunhuang5`,
     // Optional: Github account URL
@@ -47,7 +47,7 @@ module.exports = {
     experience: [
       {
         name: 'Dolby, London, UK',
-        description: 'Image Processing Intern, April 2024 - Sep 2024',
+        description: 'Software Engineering Internship, April 2024 - Sep 2024• Developing high-performance tools for image processing as part of the Content Creation team• Designed and implemented a compiler in C++ to translate Color Transformation Language (CTL) into Halide, enabling efficient and scalable image processing pipelines• Collaborated with engineers across teams to align on project requirements, engage in sprint planningand backlog refinement, and communicate progress through daily scrum meetings• Authored technical reports and delivered internal presentations to document project outcomes',
         link: '',
       },
       {
