@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/weijun-huang-793b3224b/`,
     // Content of the About Me section
-    about: `I am a third-year MEng Computing student at Imperial College London with a strong foundation in engineering, computer systems, and algorithmic thinking. My academic training has equipped me with solid problem-solving skills, a deep understanding of core computing principles, and the ability to quickly learn and apply new technologies. I am particularly passionate about building clean, efficient, and scalable software, and I enjoy working in collaborative environments where technical challenges drive innovation.`,
+    about: `I am a fourth-year MEng Computing student at Imperial College London with a strong foundation in engineering, computer systems, and algorithmic thinking. My academic training has equipped me with solid problem-solving skills, a deep understanding of core computing principles, and the ability to quickly learn and apply new technologies. I am particularly passionate about building clean, efficient, and scalable software, and I enjoy working in collaborative environments where technical challenges drive innovation.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
