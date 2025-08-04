@@ -21,13 +21,13 @@ module.exports = {
       {
         name: 'WACC compiler',
         description:
-          '•	Led a team as Leader, effectively managing tasks and ensuring deadlines were met•	Developed and implemented the parser, semantic checker, and code generator in Rust•	Tested and validated the compiler on complex codebases like hash table and Tic-Tac-Toe, identifying edge cases and optimizing performance•	Enhanced and optimized the compiler to support advanced features like dynamic type inference, constant folding, and control flow analysis',
+          '• Acted as a team leader, effectively managing tasks and ensuring deadlines were consistently met • Developed and implemented the parser, semantic checker, and code generator in Rust • Enhanced and optimized the compiler with advanced features like dynamic type inference, constant folding, and control flow analysis, improving execution speed by 20% and reducing memory usage',
         link: 'https://github.com/shijua/WACC-project',
       },
       {
         name: 'Pintos',
         description:
-          '• Implemented core OS features such as priority scheduling, user program support, and virtual memory management, enhancing overall system functionality• Conducted extensive debugging and testing to ensure accuracy, stability, and reliability• Deepened understanding of OS principles through hands-on experience, applying concepts like process management and memory handling in real-world scenarios',
+          '• Implemented core OS features such as priority scheduling, user program support, and virtual memory management, enhancing overall system functionality • Conducted 80+ tests and extensive debugging to ensure accuracy, stability, and reliability • Deepened understanding of OS principles through hands-on experience, applying concepts like process management and memory handling in real-world scenarios',
         link: 'https://github.com/shijua/pintos',
       },
       {
