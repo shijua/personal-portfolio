@@ -19,6 +19,12 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'Internet of Things (IoT) Smart Seating Monitor',
+        description:
+          '• Implemented embedded system software in Python on Raspberry Pi, integrating ultrasonic and flex sensors to detect user occupancy and provide alerts after 30 minutes to promote healthier habits• Built a Svelte web application to visualize occupancy data through interactive charts, enabling users to monitor seating duration and track trends across multiple devices• Designed and implemented a lightweight REST API pipeline for secure event logging and real-time device synchronization, supporting statistical analysis of long-term usage trends',
+        link: 'https://github.com/SpeedyOrc-C/IC-Embedded-System-Sit-Timer',
+      },
+      {
         name: 'WACC compiler',
         description:
           '• Acted as a team leader, effectively managing tasks and ensuring deadlines were consistently met • Developed and implemented the parser, semantic checker, and code generator in Rust • Enhanced and optimized the compiler with advanced features like dynamic type inference, constant folding, and control flow analysis, improving execution speed by 20% and reducing memory usage',
@@ -46,8 +52,8 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Dolby, London, UK',
-        description: 'Software Engineering Internship, April 2024 - Sep 2024• Developing high-performance tools for image processing as part of the Content Creation team• Designed and implemented a compiler in C++ to translate Color Transformation Language (CTL) into Halide, enabling efficient and scalable image processing pipelines• Collaborated with engineers across teams to align on project requirements, engage in sprint planningand backlog refinement, and communicate progress through daily scrum meetings• Authored technical reports and delivered internal presentations to document project outcomes',
+        name: 'Dolby Laboratories, London, UK',
+        description: 'Software Engineering Internship, April 2024 - Sep 2024• Developing high-performance tools for image processing as part of the Content Creation team• Designed and implemented a compiler in C++ to translate Color Transformation Language (CTL) into Halide, enabling efficient and scalable image processing pipelines• Collaborated with engineers across teams to align on project requirements, engage in sprint planningand backlog refinement, and communicate progress through daily scrum meetings• Authored technical documentation and delivered presentations to internal teams on project outcomes',
         link: '',
       },
       {
