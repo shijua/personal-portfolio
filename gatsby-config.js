@@ -19,6 +19,12 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'Infinite Terrarium',
+        description:
+          '• Built an offline iOS/iPadOS digital ecosystem playground in Swift, integrating real-time simulation, SwiftUI rendering, and on-device AI into a short interactive experience • Implemented a Boids-style engine with quadtree neighbour lookup, deterministic state updates, and adaptive quality controls to balance performance, responsiveness, and visual richness • Developed features including energy feeding, genetic mutation, species injection, and ecosystem analysis to demonstrate cause-and-effect relationships in complex systems',
+        link: 'https://github.com/shijua/The-Infinite-Terrarium',
+      },
+      {
         name: 'Internet of Things (IoT) Smart Seating Monitor',
         description:
           '• Implemented embedded system software in Python on Raspberry Pi, integrating ultrasonic and flex sensors to detect user occupancy and provide alerts after 30 minutes to promote healthier habits• Built a Svelte web application to visualize occupancy data through interactive charts, enabling users to monitor seating duration and track trends across multiple devices• Designed and implemented a lightweight REST API pipeline for secure event logging and real-time device synchronization, supporting statistical analysis of long-term usage trends',
