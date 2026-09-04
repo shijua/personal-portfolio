@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Weijun's Personal Site`,
     // Description that goes under your name in main bio
-    description: `4th Year Master of Computing Student at Imperial College London`,
+    description: `Software Engineer at Databricks`,
     // Optional: Twitter account handle
     author: `@weijunhuang5`,
     // Optional: Github account URL
@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/weijun-huang-793b3224b/`,
     // Content of the About Me section
-    about: `I am a fourth-year MEng Computing student at Imperial College London with a strong foundation in engineering, computer systems, and algorithmic thinking. My academic training has equipped me with solid problem-solving skills, a deep understanding of core computing principles, and the ability to quickly learn and apply new technologies. I am particularly passionate about building clean, efficient, and scalable software, and I enjoy working in collaborative environments where technical challenges drive innovation.`,
+    about: `I am a Software Engineer at Databricks. I previously worked at Dolby Laboratories, where I designed and implemented C++ compiler infrastructure for scalable image processing pipelines. I hold an MEng in Computing from Imperial College London and have a strong interest in building efficient, reliable, and scalable software systems.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
