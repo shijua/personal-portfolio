@@ -58,6 +58,11 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
+        name: 'Databricks, Amsterdam, Netherlands',
+        description: 'Software Engineering, Sep 2026 - Present',
+        link: '',
+      },
+      {
         name: 'Dolby Laboratories, London, UK',
         description: 'Software Engineering Internship, April 2025 - Sep 2025• Developing high-performance tools for image processing as part of the Content Creation team• Designed and implemented a compiler in C++ to translate Color Transformation Language (CTL) into Halide, enabling efficient and scalable image processing pipelines• Collaborated with engineers across teams to align on project requirements, engage in sprint planningand backlog refinement, and communicate progress through daily scrum meetings• Authored technical documentation and delivered presentations to internal teams on project outcomes',
         link: '',
